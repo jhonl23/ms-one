@@ -10,7 +10,7 @@ spring:
     topic3: event-ms-batch-one-topic
     topic4: event-ms-batch-two-topic
     consumer:
-      bootstrap-servers: localhost:9092
+      bootstrap-servers: kafka:9092
       group_id: event-ms-one-consumer
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
